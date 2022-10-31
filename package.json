@@ -1,5 +1,7 @@
 {
   "name": "recipeapp",
+  "email": "sendtoashokkumawat@gmail.com",
+  "author": "ashok kumawat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
