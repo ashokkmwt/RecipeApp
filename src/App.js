@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <form onSubmit={getSearch} className='search-form'>
-        <input value={search} onChange={(e) => setSearch(e.target.value)} className='search-bar' type="text" />
+        <input autoFocus placeholder='Search Your Favourite Dish' value={search} onChange={(e) => setSearch(e.target.value)} className='search-bar' type="text" />
         <button className='search-button' type='submit'>Search</button>
       </form>
       <div className='recipes'>
