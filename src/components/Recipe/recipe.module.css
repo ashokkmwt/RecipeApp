@@ -1,0 +1,85 @@
+.recipe {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #009EFF;
+    padding: 20px;
+    position: relative;
+}
+
+
+.more {
+    cursor: pointer;
+    width: 35px;
+    height: 28px;
+    background-color: transparent;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-around;
+    background-color: inherit;
+}
+
+.head h1 {
+    background-color: inherit;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.head h1:hover {
+    font-size: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 34px;
+    background-color: #00FFF6;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.image:hover {
+    width: 120px;
+    height: 120px;
+}
+
+@media only screen and (max-width:600px) {
+    .recipe {
+        width: 90%;
+        font-size: smaller;
+    }
+
+    .head h1:hover {
+        font-size: 28px;
+    }
+
+    .image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .image:hover {
+        width: 90px;
+        height: 90px;
+    }
+
+    .more {
+        bottom: 2px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
